@@ -62,7 +62,7 @@ paragraphs.forEach((line) => {
 
   // Add the audio element for music
   const audio = document.createElement('audio');
-  audio.src = '/mp3/caprichosaCoro.mp3'; // Reemplaza con la ruta de tu archivo de música
+  audio.src = 'mp3/caprichosaCoro.mp3'; // Reemplaza con la ruta de tu archivo de música
   audio.autoplay = true;
   audio.loop = true; // Si deseas que la música se repita indefinidamente
   container.appendChild(audio);
